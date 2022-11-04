@@ -80,9 +80,7 @@ def weather():
     return get_weather(city)
 
 
-#open_weather_token = "e37d54207830a94eee9d3babc8b0d27f"
-
-def get_weather(city, open_weather_token = "e37d54207830a94eee9d3babc8b0d27f"):
+def get_weather(city, open_weather_token = "Ваш токен, который вы получите на сайте (ссылка на сайтт есть в файле README)"):
 
     code_to_smile = {
         "Clear": "Ясно \U00002600",
